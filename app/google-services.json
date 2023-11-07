@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753712565171",
+    "project_id": "connectwave-19684",
+    "storage_bucket": "connectwave-19684.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753712565171:android:6e89c2f7cd3d263ce159c6",
+        "android_client_info": {
+          "package_name": "com.example.connectwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753712565171-gmu742h2kuqbejkuscplnna6n8nvvhrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBas-3tYah-uu2TNFI4j34EW25zSJymj2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753712565171-gmu742h2kuqbejkuscplnna6n8nvvhrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

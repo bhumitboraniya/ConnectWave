@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    tools:context=".Activity.Home">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:background="@color/primary_purple"
+        android:layout_height="@dimen/_40sdp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:text="ConnectWave"
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:id="@+id/settings"
+            android:src="@drawable/baseline_settings_24"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/_10sdp"
+            />
+        <ImageView
+            android:id="@+id/image_logout"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:background="@drawable/baseline_logout_24"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/mainuserrecycleview" />
+
+</RelativeLayout>
